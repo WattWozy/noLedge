@@ -1,8 +1,5 @@
 # noLedge
-The idea of noLedge is to create an ai-assistant to have interesting dialogues with. 
-I see it like: a voice to text input, a RAG-AI assistant with lots of cool documents, and a text to voice output (natural voice) 
-The prompt for the ai agent should ressemble: be pedagogic, clear, and concise. 
-The idea is to be able to iterate through ideas or concepts that are difficult to understand. 
-A conversation can be an easy way to go up and down in knowledge abstraction, and a natural way for us to learn better. 
+Let's scrape Skatteverket, and feed an LLM that can explain all the rules. 
+Let's have a fiscal advisor. 
 
-Imagine having all Plato's books on pdf fed to the AI assistant. Somehow, you can have a conversation with Plato himself ;)
+--> Second step: Scrape the Banks.
