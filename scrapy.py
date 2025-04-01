@@ -6,8 +6,8 @@ from urllib.parse import urljoin, urlparse
 from text_sucker import extract_and_save_text
 
 # Base URL and subdomain
-BASE_URL = "https://www.niklaswozniak.dev/"
-SUBDOMAIN = "www.niklaswozniak.dev"
+BASE_URL = "https://sede.agenciatributaria.gob.es/"
+SUBDOMAIN = "sede.agenciatributaria.gob.es"
 
 # Set to keep track of visited URLs
 visited = set()
@@ -30,6 +30,7 @@ def crawl(url, output_dir):
     
     try:
         response = requests.get(url, timeout=10)
+        response.encoding = 'utf-8'
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         
