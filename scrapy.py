@@ -6,8 +6,8 @@ from urllib.parse import urljoin, urlparse
 from text_sucker import extract_and_save_text
 
 # Base URL and subdomain
-BASE_URL = "https://sede.agenciatributaria.gob.es/"
-SUBDOMAIN = "sede.agenciatributaria.gob.es"
+BASE_URL = "https://www.bbc.com/news"
+SUBDOMAIN = "www.bbc.com/news"
 
 # Set to keep track of visited URLs
 visited = set()
